@@ -623,8 +623,8 @@ body{
 
     .nav_close{
         position: absolute;
-        top: 30px;
-        right: 30px;
+        top: 25px;
+        right: 25px;
         width: 30px;
         cursor: pointer;
     }
@@ -715,8 +715,8 @@ body{
 
     .nav_close{
         position: absolute;
-        top: 20px;
-        right: 20px;
+        top: 15px;
+        right: 15px;
         width: 25px;
         cursor: pointer;
     }
@@ -786,6 +786,33 @@ body{
 @media (max-width:450px){
     .form{
         padding: 3.5em 1em;
+    }
+
+    .links{
+        font-size: .8rem;
+    }
+
+    .nav_close{
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        width: 22px;
+        cursor: pointer;
+    }
+
+}
+
+@media (max-width:370px){
+    .links{
+        font-size: .6rem;
+    }
+
+    .nav_close{
+        position: absolute;
+        top: 8px;
+        right: 8px;
+        width: 20px;
+        cursor: pointer;
     }
 
 }
