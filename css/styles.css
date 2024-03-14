@@ -569,17 +569,17 @@ footer {
 
     .nav_close {
         position: absolute;
-        top: 15px;
-        right: 18px;
-        width: 28px;
+        top: 12px;
+        right: 15px;
+        width: 32px;
         cursor: pointer;
     }
 
     .nav_img {
         position: absolute;
-        top: 15px;
-        right: 18px;
-        width: 28px;
+        top: 12px;
+        right: 15px;
+        width: 32px;
         cursor: pointer;
     }
 
@@ -667,7 +667,7 @@ footer {
     .nav_close {
         position: absolute;
         top: 10px;
-        right: 5px;
+        right: 10px;
         width: 30px;
         cursor: pointer;
     }
@@ -717,5 +717,23 @@ footer {
 
     .email_me {
         font-size: .9rem;
+    }
+}
+
+@media (max-width: 350px) {
+    .nav_close {
+        position: absolute;
+        top: 8px;
+        right: 8px;
+        width: 28px;
+        cursor: pointer;
+    }
+
+    .nav_img {
+        position: absolute;
+        top: 8px;
+        right: 8px;
+        width: 28px;
+        cursor: pointer;
     }
 }
